@@ -1,6 +1,6 @@
 import swap from '../swap'
 
-export default function insertionSort(arr) {
+export function insertionSort(arr) {
   for (let i = 1; i < arr.length; i++) {
     let temp = arr[i]
     let j = i

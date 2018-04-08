@@ -1,6 +1,6 @@
 import swap from '../swap'
 
-export default function bubbleSort(arr) {
+export function bubbleSort(arr) {
   for (let i = 0; i < arr.length - 1; i++) {
     let isSorted = true
     for (let j = 0; j < arr.length - 1 - i; j++) {
