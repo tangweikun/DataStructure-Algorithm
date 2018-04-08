@@ -6,8 +6,8 @@ export default function selectionSort(arr) {
     for (let j = i + 1; j < arr.length; j++) {
       if (arr[j] < arr[min]) min = j
     }
-
-    if (arr[min] < arr[i]) swap(arr, i, min)
+    if (min !== i) swap(arr, i, min)
   }
+
   return arr
 }
