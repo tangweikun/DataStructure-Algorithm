@@ -1,3 +1,5 @@
+import swap from '../swap'
+
 export default function bubbleSort(arr) {
   for (let i = 0; i < arr.length - 1; i++) {
     let isSorted = true
@@ -12,10 +14,4 @@ export default function bubbleSort(arr) {
     if (isSorted) return arr
   }
   return arr
-}
-
-function swap(arr, i, j) {
-  const temp = arr[i]
-  arr[i] = arr[j]
-  arr[j] = temp
 }
