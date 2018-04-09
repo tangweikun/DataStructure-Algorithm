@@ -25,7 +25,7 @@
 
     ![Shell Sort](http://bubkoo.qiniudn.com/shell-sort-step1.1.png)
 
-1.  然后分别对 4 个小组进行插入排序，排序后的结果为：
+1)  然后分别对 4 个小组进行插入排序，排序后的结果为：
 
     ![Shell Sort](http://bubkoo.qiniudn.com/shell-sort-step1.2.png)
 
@@ -33,7 +33,7 @@
 
     ![Shell Sort](http://bubkoo.qiniudn.com/shell-sort-step2.1.png)
 
-1.  然后分别对 2 个小组进行插入排序，排序后的结果为：
+1)  然后分别对 2 个小组进行插入排序，排序后的结果为：
 
     ![Shell Sort](http://bubkoo.qiniudn.com/shell-sort-step2.2.png)
 
