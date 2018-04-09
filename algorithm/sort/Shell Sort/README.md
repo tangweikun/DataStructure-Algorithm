@@ -22,12 +22,21 @@
 ## 实例分析
 
 1.  假设有数组 array = [80, 93, 60, 12, 42, 30, 68, 85, 10]，首先取 d1 = 4，将数组分为 4 组，如下图中相同颜色代表一组：
+
     ![Shell Sort](http://bubkoo.qiniudn.com/shell-sort-step1.1.png)
+
 1.  然后分别对 4 个小组进行插入排序，排序后的结果为：
+
     ![Shell Sort](http://bubkoo.qiniudn.com/shell-sort-step1.2.png)
+
 1.  然后，取 d2 = 2，将原数组分为 2 小组，如下图：
+
     ![Shell Sort](http://bubkoo.qiniudn.com/shell-sort-step2.1.png)
+
 1.  然后分别对 2 个小组进行插入排序，排序后的结果为：
+
     ![Shell Sort](http://bubkoo.qiniudn.com/shell-sort-step2.2.png)
+
 1.  最后，取 d3 = 1，进行插入排序后得到最终结果：
+
     ![Shell Sort](http://bubkoo.qiniudn.com/shell-sort-step3.png)
