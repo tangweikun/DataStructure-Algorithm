@@ -16,6 +16,8 @@
 
 ![Heap Sort](https://github.com/hustcc/JS-Sorting-Algorithm/raw/master/res/heapSort.gif)
 
+![Heap Sort](http://bubkoo.qiniudn.com/building-a-heap.png)
+
 ## 时间复杂度
 
 * 最坏时间复杂度 O(nlogn)
