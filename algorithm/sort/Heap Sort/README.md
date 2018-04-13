@@ -14,6 +14,8 @@
 
 ![Heap Sort](https://upload.wikimedia.org/wikipedia/commons/1/1b/Sorting_heapsort_anim.gif)
 
+![Heap Sort](https://github.com/hustcc/JS-Sorting-Algorithm/raw/master/res/heapSort.gif)
+
 ## 时间复杂度
 
 * 最坏时间复杂度 O(nlogn)

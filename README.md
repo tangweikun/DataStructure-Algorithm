@@ -11,3 +11,4 @@
 * [`Insertion Sort`](algorithm/sort/Insertion%20Sort/README.md)
 * [`Shell Sort`](algorithm/sort/Shell%20Sort/README.md)
 * [`Merge Sort`](algorithm/sort/Merge%20Sort/README.md)
+* [`Heap Sort`](algorithm/sort/Heap%20Sort/README.md)
