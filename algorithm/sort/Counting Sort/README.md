@@ -6,6 +6,8 @@
 
 ## 过程
 
+![Counting Sort](https://cdn-images-1.medium.com/max/1600/1*gkUSWvuDICvRhw005CXtiA.jpeg)
+
 ![Counting Sort](https://camo.githubusercontent.com/016361c57b8a949ec57103de45a35b34e16332d0/687474703a2f2f696d672e626c6f672e6373646e2e6e65742f3230313630393137313130363431343739)
 
 1.  找出待排序的数组中最大和最小的元素
