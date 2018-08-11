@@ -6,7 +6,9 @@ Dynamic programming amounts to breaking down an optimization problem into simple
 
 ### 0-1 背包问题(Knapsack problem)
 
-<img src="https://twk-public.oss-cn-beijing.aliyuncs.com/Knapspack_problem.png" style="max-width:50%;" />
+![](https://twk-public.oss-cn-beijing.aliyuncs.com/Knapspack_problem.png)
+
+<img src="https://twk-public.oss-cn-beijing.aliyuncs.com/Knapspack_problem.png" width="400" />
 
 > 我们有 n 种物品，物品的重量为和价值分别为 w<sub>i</sub>,v<sub>i</sub>。背包所能承受的最大重量为 W，如何选择才能使得总价值最高
 
@@ -16,7 +18,6 @@ Dynamic programming amounts to breaking down an optimization problem into simple
 function solve(w: number[], v: number[], n: number, W: number) {
   return rec(0, W)
 }
-
 function rec(i: number, j: number) {
   if (i === n) return 0 // 已经没有剩余商品
   if (j < w[i]) return rec(i + 1, j) // 无法挑选这个商品
