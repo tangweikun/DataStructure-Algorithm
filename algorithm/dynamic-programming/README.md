@@ -6,7 +6,7 @@ Dynamic programming amounts to breaking down an optimization problem into simple
 
 ### 0-1 背包问题(Knapsack problem)
 
-![](https://twk-public.oss-cn-beijing.aliyuncs.com/Knapspack_problem.png)
+<img src="https://twk-public.oss-cn-beijing.aliyuncs.com/Knapspack_problem.png" style="width:400px; height: 360px" />
 
 > 我们有 n 种物品，物品的重量为和价值分别为 w<sub>i</sub>,v<sub>i</sub>。背包所能承受的最大重量为 W，如何选择才能使得总价值最高
 
