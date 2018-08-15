@@ -30,9 +30,11 @@ function solve(w: number[], v: number[], n: number, W: number) {
 
 #### 记忆搜索法
 
+> 时间复杂度: O(n<sup>2</sup>)
+
 ```ts
 function solve(w: number[], v: number[], n: number, W: number) {
-  let dp = Array.from(Array(n + 1), () => Array(w + 1).fill(-1)) // 用`-1`表示尚未计算过
+  let dp = Array.from(Array(n + 1), () => Array(W + 1).fill(-1)) // 用`-1`表示尚未计算过
   return rec(0, W)
 
   function rec(i: number, j: number) {
@@ -44,5 +46,26 @@ function solve(w: number[], v: number[], n: number, W: number) {
 
     return (dp[i][j] = Math.max(rec(i + 1, j), rec(i + 1, j - w[i]) + v[i])) // 挑选和不挑选的两种情况都尝试一下
   }
+}
+```
+
+#### 动态规划
+
+> 时间复杂度: O(nW)
+
+```ts
+function solve(w: number[], v: number[], n: number, W: number) {
+  let dp = Array.from(Array(n), () => Array(W + 1).fill(0))
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j <= W; j++) {
+      if (j < w[i]) {
+        dp[i + 1][j] = dp[i][j]
+      } else {
+        dp[i + 1][j] = Math.max(dp[i][j], dp[i][j - w[i]] + v[i])
+      }
+    }
+  }
+
+  return dp[n][W]
 }
 ```
